@@ -20,7 +20,7 @@ import java.util.Scanner;
  */
 public class Main {
 
-    private final static String EXAMPLESFOLDER = "examples/";
+    private final static String EXAMPLESFOLDER = "src/examples/";
 
     static void printSymbolTable(HashMap<String, Pair<String, SymbolTable>> symbolTable){
         System.out.println("\n======================\n  Table des Symboles  \n======================\n\n");

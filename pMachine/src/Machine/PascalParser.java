@@ -1,4 +1,4 @@
-// Generated from /home/jordan/Desktop/Etudes/Master/Semestre2/Compilation/tp2/src/Machine/Pascal.g4 by ANTLR 4.7.2
+// Generated from /home/jordan/Desktop/Etudes/Master/Semestre2/Compilation/Compilation/pMachine/src/Machine/Pascal.g4 by ANTLR 4.7.2
 package Machine;
 
     import Instructions.Comparaisons.*;
