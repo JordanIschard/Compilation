@@ -32,5 +32,7 @@ J'ai pour ma part ajouté :
 Pour tester il suffit de mettre le projet dans un IDE, vérifier que la dépendance avec ANTLR fonctionne bien 
 et le lancer via L'IDE. 5 exemples sont proposés mais libre à vous dans rajouter pour les testers. Une fois écrit 
 et placé dans le dossier *examples*, il se rajoutera à la liste des exemples lors de l'exécution.
+Si vous voulez voir la table des symboles, le PCode généré et la mémoire à la fin de l'exécution alors demander
+le **debug** *(il vous sera demander lors de l'exécution)*.
 
 De Jordan Ischard (projet fait seul).
