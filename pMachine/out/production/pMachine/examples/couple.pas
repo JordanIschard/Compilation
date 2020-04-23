@@ -1,4 +1,4 @@
-program example :
+program example ;
 
 type
     Couple = record
@@ -9,25 +9,26 @@ end
 var n : integer;
 var b : integer;
 var couplea : Couple;
-var coupleb : Couple;
+var coupleb : Couple
 
+(* Démonstration des types via des couples *)
 begin
     n := -1;
     while( n < 0) do
         begin
-            read(n);
+            read(n)
         end;
 
      b := -1;
      while( b < 0) do
         begin
-            read(b);
+            read(b)
          end;
 
     couplea.a := n;
     repeat
         begin
-            couplea.b := couplea.b + 1;
+            couplea.b := couplea.b + 1
         end
      until couplea.a = couplea.b ;
 
@@ -36,5 +37,5 @@ begin
      coupleb.b := b;
 
      write(couplea.b);
-     write(coupleb.b);
+     write(coupleb.b)
 end.

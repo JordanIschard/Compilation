@@ -39,7 +39,7 @@ public  Program lire() throws SyntaxErrorException {
 }
 
 // structure principal d'un programme pascal
-program: 'program' ID ':' block '.' { prog.addPCode(new HLT()); };
+program: 'program' ID ';' block '.' { prog.addPCode(new HLT()); };
 
 
 block: typedefs vars
@@ -69,7 +69,7 @@ $proc = new Procedure(prog.getNbrInstruction()+1,$shift);
     prog.putInTable($ID.text,$proc,PROCEDURE);
     prog.downLevel($ID.text);
 }
-('(' defparams ')' | '()') ':' typedefs vars
+('(' defparams ')' | '()') ';' typedefs vars
 {
     BRN brn = new BRN();
     prog.addPCode(brn);
@@ -108,7 +108,7 @@ typedef : (x = TYPE '=' type { prog.putInTable($x.text,$type.t,TYPEPERSO);} ';')
 
 
 // structure descriptive d'une succession de variables
-vars : ('var' var ';')*;
+vars : ('var' var (';' 'var' var)*)?;
 
 var : x = ID { List<String> variables = new ArrayList<String>(){{ add($x.text); }}; }
  (',' y = ID { variables.add($y.text); } )* ':' type
@@ -147,7 +147,7 @@ champ returns[String info1,Type info2] : ID ':' type ';' { $info1 = $ID.text; $i
 
 
 // structure pour une suite d'instructions
-insts : 'begin' (inst ';')+ 'end';
+insts : 'begin' inst (';' inst)* 'end';
 
 inst : insts | affect | ifcond | read | write | forDo | whileDo | switchCase | repeatUntil | callFunc;
 

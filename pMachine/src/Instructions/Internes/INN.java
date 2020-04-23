@@ -36,10 +36,21 @@ public class INN implements Instruction {
      */
     @Override
     public void exec(PMachine pMachine){
-        System.out.print("< ");
+
 
         adr = pMachine.pop();
-        x = scanner.nextInt();
+        boolean notTake = true;
+        do {
+            try {
+                System.out.print("< ");
+                String tmp = scanner.next();
+                x = Integer.parseInt(tmp);
+            } catch (NumberFormatException e) {
+                System.out.println("Error Bad entry. Give an integer please.\n");
+                continue;
+            }
+            notTake = false;
+        }while(notTake);
 
         pMachine.replace(adr,x);
         pMachine.next();
