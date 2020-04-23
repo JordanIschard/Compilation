@@ -8,29 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a0de3f03-9dd3-4b8c-ad38-7fd348df787e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pMachine/Machine/Pascal.g4" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pMachine/Machine/Pascal.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pMachine/Machine/Pascal.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pMachine/Machine/Pascal.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pMachine/Machine/Pascal.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pMachine/Machine/Pascal.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pMachine/Machine/PascalLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pMachine/Machine/PascalLexer.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pMachine/Machine/PascalLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pMachine/Machine/PascalLexer.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pMachine/examples/couple.pas" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pMachine/examples/couple.pas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pMachine/examples/entre51et54.pas" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pMachine/examples/entre51et54.pas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pMachine/examples/index.pas" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pMachine/examples/index.pas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pMachine/examples/pairetimpair.pas" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pMachine/examples/pairetimpair.pas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pMachine/examples/recursion.pas" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pMachine/examples/recursion.pas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Instructions/Internes/INN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instructions/Internes/INN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Machine/Pascal.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/Machine/Pascal.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Machine/Pascal.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Machine/Pascal.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Machine/Pascal.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/Machine/Pascal.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Machine/PascalLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Machine/PascalLexer.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Machine/PascalLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Machine/PascalLexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Machine/PascalLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/Machine/PascalLexer.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Machine/PascalParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Machine/PascalParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/couple.pas" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/couple.pas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/entre51et54.pas" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/entre51et54.pas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/index.pas" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/index.pas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/pairetimpair.pas" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/pairetimpair.pas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examples/recursion.pas" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/recursion.pas" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/src/examples/couple.pas">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -115,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/examples/pairetimpair.pas">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -255,7 +232,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="101" />
     <option name="width" value="952" />
@@ -339,11 +316,11 @@
     <property name="$PROJECT_DIR$/src/v1/Pascal.g4::/output-dir" value="$PROJECT_DIR$/src/v1" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587628105892" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../antlr-4.7.2-complete.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587628361452" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../antlr-4.7.2-complete.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
@@ -470,12 +447,12 @@
       <workItem from="1587554185957" duration="11522000" />
       <workItem from="1587566211435" duration="1275000" />
       <workItem from="1587567518057" duration="269000" />
-      <workItem from="1587625803427" duration="2300000" />
+      <workItem from="1587625803427" duration="2495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190508000" />
+    <option name="totallyTimeSpent" value="190703000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,8 +466,8 @@
   <component name="ToolWindowManager">
     <frame x="-1" y="37" width="1922" height="1048" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6466069" visible="true" weight="0.2561366" />
-      <window_info id="Structure" order="1" sideWeight="0.35339308" side_tool="true" visible="true" weight="0.2561366" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6454545" visible="true" weight="0.2561366" />
+      <window_info id="Structure" order="1" sideWeight="0.35454544" side_tool="true" visible="true" weight="0.2561366" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -501,7 +478,7 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39917696" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.18930042" visible="true" weight="0.19650206" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.18930042" visible="true" weight="0.5473251" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3281893" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3281893" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
@@ -976,7 +953,7 @@
     <entry file="file://$PROJECT_DIR$/src/examples/pairetimpair.pas">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -997,7 +974,7 @@
     <entry file="file://$PROJECT_DIR$/src/examples/couple.pas">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
